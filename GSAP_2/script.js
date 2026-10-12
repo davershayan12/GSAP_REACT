@@ -28,6 +28,6 @@ gsap.from("#page3 #box",{
     }
     
 })
-gasp.to("page4 #h1",{
-    transform:
+gasp.to("#page4 h1",{
+    transform:"translateX(-150%)"
 })
