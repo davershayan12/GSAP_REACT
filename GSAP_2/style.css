@@ -11,6 +11,10 @@ body{
     height: 100%;
     width: 100%;
 }
+
+body{
+    overflow-x: hidden;
+}
 #page1{
 
     height: 100%;
@@ -40,4 +44,18 @@ body{
     height: 300px;
     width: 300px;
     background-color: cadetblue;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 5vw 0;
+    display: flex;
+    align-items: center; 
+}
+
+#page4 h1{
+    font-size: 40vw;
+    font-weight: 200;
+    text-transform: uppercase;
 }
