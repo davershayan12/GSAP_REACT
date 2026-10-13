@@ -28,6 +28,15 @@ gsap.from("#page3 #box",{
     }
     
 })
-gasp.to("#page4 h1",{
-    transform:"translateX(-150%)"
+gsap.to("#page4 h1",{
+    transform:"translateX(-55%)",
+    scrollTrigger:{
+        trigger:"#page4",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        pin:true
+    }
 })
