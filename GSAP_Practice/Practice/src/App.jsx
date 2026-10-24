@@ -1,3 +1,4 @@
+import { ScrollTrigger } from "./Scrolltrigger";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import "./App.css";
@@ -71,6 +72,7 @@ function App() {
         <div className="staggerbox"></div>
         <div className="staggerbox"></div>
       </div>
+      <ScrollTrigger/>
     </>
   );
 }

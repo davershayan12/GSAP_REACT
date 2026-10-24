@@ -207,3 +207,19 @@
   justify-content:center;
   
 }
+#oragebox{
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+#orangebox{
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+#pinkbox{
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}
