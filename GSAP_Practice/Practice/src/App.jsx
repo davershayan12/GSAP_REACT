@@ -38,7 +38,7 @@ function App() {
   }, []);
   useGSAP(() => {
     gsap.to(".staggerbox", {
-      y: 250,
+      y: 2,
       x: 50,
 
       duration: 1,
@@ -46,7 +46,7 @@ function App() {
       yoyo: true,
       stagger: {
         amount: 0.5,
-        axis: 'y',
+        axis: 'x',
         grid:[2,1],
         ease:'power.in',
         from: 'center'
@@ -72,6 +72,7 @@ function App() {
         <div className="staggerbox"></div>
         <div className="staggerbox"></div>
       </div>
+
       <ScrollTrigger/>
     </>
   );
