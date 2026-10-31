@@ -56,6 +56,7 @@ function App() {
 
   return (
     <>
+    <div id="divbox">
       <div id="bluebox"></div>
 
       <button onClick={() => timeline.paused(!timeline.paused())}>
@@ -72,8 +73,12 @@ function App() {
         <div className="staggerbox"></div>
         <div className="staggerbox"></div>
       </div>
+      </div>
 
       <ScrollTrigger/>
+      <div id="nextdiv">
+        
+      </div>
     </>
   );
 }
