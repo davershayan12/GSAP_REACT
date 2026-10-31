@@ -1,45 +1,47 @@
-
-
-#bluebox{
+#bluebox {
   height: 50px;
   width: 50px;
   background-color: blue;
 }
-#redbox{
-   height: 50px;
-   width: 50px;
-   background-color: red;
+#redbox {
+  height: 50px;
+  width: 50px;
+  background-color: red;
 }
-.staggerbox{
+.staggerbox {
   height: 70px;
   width: 50px;
   margin: 10px;
   background-color: blue;
   border-radius: 10px;
 }
-#staggerboxes{
+#staggerboxes {
   height: 100px;
   width: 100%;
-  display :flex ;
-  
-  justify-content:center;
-  
+  display: flex;
+
+  justify-content: center;
 }
-#orangebox{
+#orangebox {
   height: 50px;
   width: 50px;
   background-color: orange;
 }
 
-#pinkbox{
+#pinkbox {
   height: 50px;
   width: 50px;
   background-color: pink;
 }
-#divbox{
+#divbox {
   height: 1000px;
   width: 100%;
 }
-#nextdiv{
-  
+#nextdiv {
+  height: 600px;
+  width: 100%;
+}
+#scroll {
+  width: 100%;
+  height: 100%;
 }

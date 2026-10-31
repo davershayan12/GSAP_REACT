@@ -10,23 +10,23 @@ export const ScrollTrigger = () => {
     const boxes = gsap.utils.toArray(scrollRef.current.children);
     boxes.forEach((box) => {
       gsap.to(box, {
-        x: 150,
+        x: 150*(boxes.indexOf(box)+5),
         rotation: 360,
         borderRadius: 20,
         scale: 1.5,
-        scrollTrigger:{
+        scrollTrigger: {
           trigger: box,
-          markers:true,
-          start:'bottom bottom',
-          end:'top 20%',
-          scrub:true
-        }
+          markers: true,
+          start: "bottom bottom",
+          end: "top 20%",
+          scrub: 2,
+        },
       });
-    }, {});
+    }, {scope:scrollRef});
   });
   return (
     <>
-      <div ref={scrollRef}>
+      <div id="scroll" ref={scrollRef}>
         <div id="pinkbox"></div>
         <div id="orangebox"></div>
       </div>

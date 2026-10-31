@@ -46,39 +46,37 @@ function App() {
       yoyo: true,
       stagger: {
         amount: 0.5,
-        axis: 'x',
-        grid:[2,1],
-        ease:'power.in',
-        from: 'center'
+        axis: "x",
+        grid: [2, 1],
+        ease: "power.in",
+        from: "center",
       },
     });
   });
 
   return (
     <>
-    <div id="divbox">
-      <div id="bluebox"></div>
+      <div id="divbox">
+        <div id="bluebox"></div>
 
-      <button onClick={() => timeline.paused(!timeline.paused())}>
-        play/pause
-      </button>
+        <button onClick={() => timeline.paused(!timeline.paused())}>
+          play/pause
+        </button>
 
-      <div id="redbox"></div>
-      <div id="staggerboxes">
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-        <div className="staggerbox"></div>
-      </div>
+        <div id="redbox"></div>
+        <div id="staggerboxes">
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+          <div className="staggerbox"></div>
+        </div>
       </div>
 
-      <ScrollTrigger/>
-      <div id="nextdiv">
-        
-      </div>
+      <ScrollTrigger />
+      <div id="nextdiv"></div>
     </>
   );
 }
